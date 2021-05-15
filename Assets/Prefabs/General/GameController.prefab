@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2700635392554329271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700635392554329265}
+  - component: {fileID: 2700635392554329264}
+  - component: {fileID: 8740691082595785231}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2700635392554329265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700635392554329271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.29828712, y: 0.78349525, z: -43.15625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2700635392554329264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700635392554329271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875e0253d1a8b6543946480fd44ec7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsSpeed: 2
+  gameSpeed: 1
+  isEvent: 0
+  events:
+  - {fileID: 8683353310386713347, guid: 02dd4a9fee1fcc54cb40903e322f48b3, type: 3}
+  - {fileID: 8065400860514163623, guid: efeb06ca897c0794d89f07e1ba3daedb, type: 3}
+  - {fileID: 143642326233198416, guid: db2fe226225aea642925d4d2b689fbf9, type: 3}
+  - {fileID: 2866444442749632051, guid: 11367df2d2a530943a6692bbf0b97bc8, type: 3}
+  levelFill: {fileID: 0}
+  levelText: {fileID: 0}
+--- !u!114 &8740691082595785231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700635392554329271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44780d6fb9c31184f8f9a739ae04b23e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlBackground: {fileID: 3251289784102890670, guid: 9340d75862e3eec4b98c1facb6290bc8,
+    type: 3}
+  empty: {fileID: 115716408733814065, guid: 9934c5fca877b0941a96ef22ae2e18a3, type: 3}
+  width: 3.2
+  heigth: 2
+  mainCamera: {fileID: 0}
+  rowsCount: 0
