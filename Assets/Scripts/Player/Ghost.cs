@@ -14,6 +14,8 @@ public class Ghost : MonoBehaviour
     }
 
     void Update(){
+        if(player == null)
+            return;
         if(keepDistance == true)
             if(Vector2.Distance(gameObject.transform.position, player.transform.position) >= player.transform.lossyScale.x / 2)
                 keepDistance = false;
